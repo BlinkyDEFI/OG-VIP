@@ -1,8 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
-  output: 'export', // Enables static export (Next.js 13+)
-  trailingSlash: true // Optional but helpful for Netlify + routing
+  output: 'standalone', // Use 'standalone' instead of 'export'
+  trailingSlash: true, // Optional, keep if needed for routing
 };
 
 module.exports = nextConfig;
