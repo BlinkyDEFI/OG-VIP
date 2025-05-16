@@ -132,11 +132,11 @@ const mintClick = async (
   }
 
   let buyBeer = true;
-  console.log("buyBeer",process.env.NEXT_PUBLIC_BUYMARKBEER )
+  console.log("buyBeer",process.env.NEXT_PUBLIC_BUY )
 
-  if (process.env.NEXT_PUBLIC_BUYMARKBEER  === "false") {
+  if (process.env.NEXT_PUBLIC_BUY  === "false") {
     buyBeer = false;
-    console.log("The Creator does not want to pay for MarkSackerbergs beer 😒");
+    console.log("mint failed");
   }
 
   try {

@@ -4,11 +4,11 @@ export const mintText = [
   { label: "WL", mintText: "WL mint paying with SOL", buttonLabel: "Mint now!", header: "WL Mint" },
   { label: "OG", mintText: "Mint Paying with ABC", buttonLabel: "Mint now!", header: "OG Mint" },
   { label: "publi", mintText: "Mint Paying with DEF", buttonLabel: "Mint now!", header: "Public Mint" },
-  { label: "default", mintText: "default mintText", buttonLabel: "Mint now!", header: "Default"}
+  { label: "default", mintText: "Connect your wallet, click mint, confirm in wallet.", buttonLabel: "Mint now!", header: "How to mint"}
 ];
 
 //header image in the ui. replace with your own
-export const image = "https://avatars.githubusercontent.com/u/93528482?v=4";
+export const image = "https://blinkyonsol.com/wp-content/uploads/2025/04/Blinky-OG-VIP-4K-1.png";
 
 //website title
-export const headerText = "MarkSackerberg's mint UI";
+export const headerText = "BLINKY OG VIP MINT";
